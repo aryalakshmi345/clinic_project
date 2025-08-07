@@ -38,16 +38,19 @@ README.md
 
 
 git clone https://github.com/aryalakshmi345/clinic_project
+
 cd clinic_project 
 
 2. Backend Setup (Express)
 
 cd backend
+
 npm install
 
 Create a .env file:
 
 MONGO_URI=mongo_db_uri
+
 JWT_SECRET=your_jwt_secret_key
 
 Start the server:
@@ -57,7 +60,9 @@ node index.js
 3. Frontend Setup (React)
 
 cd  frontend
+
 npm install
+
 npm run dev
 
 
@@ -66,9 +71,11 @@ npm run dev
 Dummy users and doctors are already seeded into the MongoDB database. No need to manually create them via API or Admin.
 
 1. Email : john@example.com
+
 Password:  password
 
 2. Email : jane@example.com
+
 Password:  secure123
 
 ## Conclusion
@@ -76,3 +83,4 @@ Password:  secure123
 This application demonstrates a simple clinic management system with secure authentication, appointment booking, and doctor listings. 
 
 Thank you for taking the time to review this project.
+
