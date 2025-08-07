@@ -49,7 +49,7 @@ npm install
 
 Create a .env file:
 
-MONGO_URI=mongo_db_uri
+MONGODB_URI=mongo_db_uri
 
 JWT_SECRET=your_jwt_secret_key
 
@@ -83,4 +83,5 @@ Password:  secure123
 This application demonstrates a simple clinic management system with secure authentication, appointment booking, and doctor listings. 
 
 Thank you for taking the time to review this project.
+
 
